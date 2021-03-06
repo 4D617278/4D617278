@@ -13,6 +13,7 @@ KEYWORDS="~alpha amd64 arm arm64 hppa ~ia64 ~m68k ~mips ppc ppc64 ~riscv s390 sp
 # - is a "display" or "visual" editor (e.g., using ncurses).
 
 RDEPEND="|| (
+	app-editors/oed
 	app-editors/nvi
 	app-editors/nano
 	app-editors/dav
