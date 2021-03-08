@@ -26,11 +26,6 @@ BDEPEND="
 	dev-lang/perl
 	virtual/pkgconfig"
 
-PATCHES=(
-	"${FILESDIR}"/${P}-fno-common.patch
-	"${FILESDIR}"/${P}-manpage.patch
-)
-
 src_prepare() {
 	cmake_src_prepare
 
