@@ -7,7 +7,7 @@ inherit cmake
 
 DESCRIPTION="Combination editor, browser, and mail client that is 100% text based"
 HOMEPAGE="http://edbrowse.org"
-SRC_URI="https://github.com/CMB/edbrowse/releases/tag/v${PV}"
+SRC_URI="https://github.com/CMB/edbrowse/archive/v${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
