@@ -36,6 +36,7 @@ PATCHES=(
 	"${FILESDIR}"/${P}-ac_config_header.patch
 	"${FILESDIR}"/${P}-use_pkgconfig_for_ncurses.patch
 	"${FILESDIR}"/${P}-printf-types.patch
+	"${FILESDIR}"/${P}-include-term-h-ncurses.patch
 	)
 
 src_prepare() {

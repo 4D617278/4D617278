@@ -1,0 +1,11 @@
+
+--- nvi-1.81.6/cl/cl.h.ORIG	2007-11-18 10:41:42.000000000 -0600
++++ nvi-1.81.6/cl/cl.h	2018-05-29 12:36:30.343996774 -0500
+@@ -20,6 +20,7 @@
+ #else /* } { */
+ #ifdef HAVE_NCURSES_H /* { */
+ #include <ncurses.h>
++#include <term.h>
+ #else /* } { */
+ #include <curses.h>
+ #endif /* } */
