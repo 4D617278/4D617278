@@ -12,7 +12,7 @@ SRC_URI="http://download.savannah.gnu.org/releases/fbi-improved/${P/_rc/-rc}.tar
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
-IUSE="aalib bmp dia djvu exif fbcon gif graphicsmagick imagemagick jpeg pcx pdf png postscript readline sdl static svg tiff xfig"
+IUSE="aalib bmp dia djvu exif fbcon gif graphicsmagick imagemagick jpeg pcx pdf png postscript readline sdl static svg tiff xfig unicode"
 
 RDEPEND="media-fonts/terminus-font
 	aalib? ( media-libs/aalib[slang] )
@@ -71,6 +71,7 @@ src_configure() {
 		$(use_enable svg inkscape) \
 		$(use_enable tiff) \
 		$(use_enable xfig) \
+		$(use_enable unicode) \
 		--disable-hardcoded-font \
 		--disable-imlib2 \
 		--disable-jasper \
